@@ -1,0 +1,1 @@
+import{k as t}from"./index-c65a3c12.js";let e=[];async function o(){if(e.length===0)try{return e=(await t.get("/category")).data,e||[]}catch(r){throw console.error("Error al solicitar datos de las categorias en products.service.js",r),r}else return e}export{o as g};
